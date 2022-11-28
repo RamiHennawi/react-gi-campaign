@@ -1,0 +1,132 @@
+label{
+  margin-bottom: 0.9vw;
+  font-size: 1.1em;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 1.6em;
+}
+
+#form{
+  position: relative;
+  width: 50vw;
+  margin: 3rem auto;
+  background-color: white;
+  padding: 2vw 3vw;
+  border-radius: 4px;
+  border: #1b7e47 solid 6px;
+}
+
+#campaign-name, #campaign-budget{
+  font-size: 0.9em;
+  width: 47vw;
+  height: 5.5vh;
+  padding: 0px 15px 0px 15px;
+  background: whitesmoke;
+  outline: none;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 3vh;
+}
+#campaign-budget{
+  width: 24.3vw;
+}
+
+#campaign-description{
+  width: 47vw;
+  height: 17vh;
+  max-height: 110px;
+  padding: 15px;
+  background: whitesmoke;
+  outline: none;
+  color: black;
+  font-size: 1.2em;
+  border: none;
+  margin-bottom: 3vh;
+  border-radius: 4px;
+}
+
+select{
+  width: 43vw;
+  height: 5.5vh;
+  background: whitesmoke;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  font-size: 0.9em;
+  outline: none;
+  margin-bottom: 3vh;
+  border-radius: 4px;
+}
+#select-games{
+  margin-bottom: 0vh;
+}
+
+.dates{
+  width: 10vw;
+  height: 5vh;
+  background: whitesmoke;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 3vh;
+  border-radius: 4px;
+}
+.to{
+  margin: 0 1rem;
+}
+
+#validation-message{
+  font-size: 1em;
+  color: rgb(184, 13, 13);
+}
+
+#submit-button {
+  background-color: #1b7e47;
+  color: white;
+  font-weight: 600;
+  height: 5vh;
+  width: 8vw;
+  border: none;
+  font-size: 2vh;
+  cursor: pointer;
+  outline: none;
+}
+
+#completed-forms {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 50px;
+}
+.one-form {
+  margin-right: 10px;
+}
+
+#campaign-name:focus,
+#campaign-description:focus,
+select:focus,
+.dates:focus,
+#campaign-budget:focus {
+  border: #000000 solid 1px;
+}
+
+#other-option{
+  display: none;
+}
+#other-game{
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
