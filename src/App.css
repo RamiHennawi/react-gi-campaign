@@ -106,6 +106,7 @@ select{
   margin-right: 10px;
 }
 
+#other-game:focus,
 #campaign-name:focus,
 #campaign-description:focus,
 select:focus,
@@ -114,10 +115,13 @@ select:focus,
   border: #000000 solid 1px;
 }
 
-#other-option{
-  display: none;
-}
 #other-game{
+  height: 3.5vh;
+  border-radius: 4px;
+  background: whitesmoke;
+  outline: none;
+  color: #000;
+  border: none;
   margin-top: 4px;
   margin-left: 4px;
 }

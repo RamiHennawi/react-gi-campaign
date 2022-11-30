@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "baseUrl": ".",
+        "outDir": "dist",
+        "allowJs": true,
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "noImplicitReturns": true,
+        "noUnusedParameters": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "importHelpers": true,
+        "strictBindCallApply": true,
+        "typeRoots": [
+            "./node_modules/@types/"
+        ]
+    },
+    "include": ["src/**/*"]
+}
